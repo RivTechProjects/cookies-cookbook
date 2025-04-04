@@ -1,6 +1,6 @@
+namespace CookieCookbook.UserInterface;
 using CookieCookbook.Recipes;
 using CookieCookbook.Recipes.Ingredients;
-
 public class UserInterface : IUserInterface
 {
     private readonly IIngredientManager _ingredientManager;

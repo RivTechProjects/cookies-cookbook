@@ -1,3 +1,4 @@
+namespace CookiesCookbook.Utils.FileHelper;
 public class FileHelper : IFileHelper
 {
     // Reads all lines from a file

@@ -1,3 +1,4 @@
+namespace CookieCookbook.App;
 using CookieCookbook.Recipes;
 public class CookiesCookBookApp
 {

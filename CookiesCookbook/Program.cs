@@ -1,4 +1,9 @@
-﻿FileType fileType = FileType.Json; // Change this to FileType.Txt or FileType.Json as needed
+﻿using CookieCookbook.UserInterface;
+using CookieCookbook.IngredientManager;
+using CookieCookbook.RecipeManager;
+using CookieCookbook.Utils.FileHelperFactory;
+
+FileType fileType = FileType.Json; // Change this to FileType.Txt or FileType.Json as needed
 
 // Use the factory to create the file helper and get the file path
 IFileHelper fileHelper = FileHelperFactory.CreateFileHelper(fileType);

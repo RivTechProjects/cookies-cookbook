@@ -1,7 +1,6 @@
+namespace CookieCookbook.RecipeManager;
 using CookieCookbook.Recipes;
 using CookieCookbook.Recipes.Ingredients;
-
-
 public class RecipeManager : IRecipeManager
 {
     private readonly IFileHelper _fileHelper;

@@ -1,10 +1,7 @@
 using System.Text.Json;
-
+namespace CookiesCookbook.Utils.JsonHelper;
 public class JsonHelper : IFileHelper
 {
-    // Reads all lines from a file
-    private static readonly string Separator = Environment.NewLine;
-
     public List<string> Read(string filePath)
     {
         if (!File.Exists(filePath))

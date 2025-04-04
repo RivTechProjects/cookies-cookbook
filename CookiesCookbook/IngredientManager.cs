@@ -1,5 +1,5 @@
+namespace CookieCookbook.IngredientManager;
 using CookieCookbook.Recipes.Ingredients;
-
 public class IngredientManager : IIngredientManager
 {
     public IEnumerable<Ingredient> AllIngredients { get; } = new List<Ingredient>
